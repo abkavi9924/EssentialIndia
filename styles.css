@@ -12,6 +12,7 @@ body {
 .layer4 {
   background-color: #f3e4a8; 
   padding: 40px;
+  text-alignment:center;
 }
 img.logo {
   width: 100px; /* Adjust the width as needed */
@@ -66,9 +67,7 @@ footer {
 .centered h1{
   text-align: right;
 }
-.centered h2 {
-  text-align: center;
-}
+
 
 .centered ul {
   text-align: center;
