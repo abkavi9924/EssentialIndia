@@ -1,5 +1,4 @@
- import "./styles.css";
- let index = 0;
+let index = 0;
 displayImages();
 function displayImages() {
   let i;
