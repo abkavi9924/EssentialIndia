@@ -1,3 +1,4 @@
+import "./styles.css";
 let index = 0;
 displayImages();
 function displayImages() {
