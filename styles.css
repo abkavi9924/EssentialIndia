@@ -18,6 +18,11 @@ body {
   padding: 40px;
   text-align:center;
 }
+img.img1{
+  width: 90%;
+  margin-left:10%;
+  
+}
 img.logo {
   width: 100px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
