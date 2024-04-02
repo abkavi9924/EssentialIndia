@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+  font-family: Georgia, Times, serif, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.layer1 {
+  background-color: #f3e4a8; 
+  padding: 40px;
+}
+
+img.logo {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 20px;
+  margin-bottom: 100px;
+  float: left;
+}
+
+header {
+  background-color: rgba(228, 200, 57, 0.822);
+  color: #000000;
+  padding: 40px;
+  text-align: center; /* Center the navigation menu */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block; /* Align the menu items horizontally */
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgba(228, 200, 57, 0.822);
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.layer1 h1{
+  text-align: center;
+}
+.layer1 p{
+  text-align: center;
+}
+/* Align headings and lists in the center */
+.centered {
+  text-align: center;
+}
+
+.centered h1{
+  text-align: right;
+}
+.centered h2 {
+  text-align: center;
+}
+
+.centered ul {
+  text-align: center;
+  padding-inline-start: 0; /* To remove default padding on the left side of the list */
+}
+
+.centered li {
+  display: inline-block; /* Display list items in a line */
+  margin: 0 10px; /* Adjust margin as needed */
+}
+
