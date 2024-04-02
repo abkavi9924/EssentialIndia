@@ -4,26 +4,16 @@ body {
   margin: 0;
   padding: 0;
 }
-.slideshow-container {
-    position: relative;
-    max-width: 1000px;
-    margin: auto;
-}
-
-.slide {
-    display: none;
-}
-
-img {
-    width: 100%;
-}
-
-
 .layer1 {
   background-color: #f3e4a8; 
   padding: 40px;
 }
 .layer4 {
+  background-color: #f3e4a8; 
+  padding: 40px;
+  text-align:center;
+}
+.layer2 {
   background-color: #f3e4a8; 
   padding: 40px;
   text-align:center;
