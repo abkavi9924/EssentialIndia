@@ -17,12 +17,12 @@ body {
 * {
     box-sizing: border-box
 }
-.image-slideshow {
+main{
   max-width: 1000px;
   position:relative;
   margin: auto;
 }
-img {
+slide {
   width: 100%;
   height: 100%;
   position: absolute;
