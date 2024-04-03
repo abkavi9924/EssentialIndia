@@ -4,6 +4,74 @@ body {
   margin: 0;
   padding: 0;
 }
+img.logo {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 40px;
+  margin-bottom: 200px;
+  float: left;
+}
+
+header {
+  background-color: white;
+  color: #000000;
+  padding: 40px;
+  text-align: right; /* Center the navigation menu */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block; /* Align the menu items horizontally */
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 40px;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+footer {
+  background-color: yellow;
+  color: black;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.layer1 h1{
+  text-align: center;
+}
+.layer1 p{
+  text-align: center;
+}
+/* Align headings and lists in the center */
+.centered {
+  text-align: center;
+}
+
+.centered h1{
+  text-align: right;
+}
+
+.layer4 h2{
+  margin-left: 20px;
+}
+.centered ul {
+  text-align: center;
+  padding-inline-start: 0; /* To remove default padding on the left side of the list */
+}
+
+.centered li {
+  display: inline-block; /* Display list items in a line */
+  margin: 0 10px; /* Adjust margin as needed */
+}
+
+/*Homepage styling*/
 .layer1 {
   background-color: yellow;
   padding: 40px;
@@ -21,13 +89,6 @@ body {
   margin-bottom: 0; /* Remove default bottom margin */
   margin-right: 100px;
 }
-
-.layer4 {
-  background-color: #f3e4a8; 
-  padding: 40px;
-  text-align:center;
-}
-
 .content{
   display: flex;
   align-items: center;
@@ -81,69 +142,23 @@ body {
   right: 0;
 }
 
-img.logo {
-  width: 100px; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
-  margin-left: 40px;
-  margin-bottom: 200px;
-  float: left;
-}
-
-header {
-  background-color: white;
-  color: #000000;
+/*Contact styling*/
+.layer4 {
+  background-color: yellow;
   padding: 40px;
-  text-align: right; /* Center the navigation menu */
+  text-align: left; /* Align text to the left */
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: inline-block; /* Align the menu items horizontally */
+.contact-container {
+  max-width: 600px; /* Adjust as needed */
+  margin: 0 auto; /* Center horizontally */
 }
 
-nav ul li {
-  display: inline;
-  margin-right: 40px;
+.contact-container h2 {
+  text-align: center; /* Center the heading */
 }
 
-nav ul li a {
-  color: #000000;
-  text-decoration: none;
+.contact-container p {
+  margin-bottom: 10px; /* Add spacing between paragraphs */
 }
 
-footer {
-  background-color: rgba(228, 200, 57, 0.822);
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
-}
-
-.layer1 h1{
-  text-align: center;
-}
-.layer1 p{
-  text-align: center;
-}
-/* Align headings and lists in the center */
-.centered {
-  text-align: center;
-}
-
-.centered h1{
-  text-align: right;
-}
-
-.layer4 h2{
-  margin-left: 20px;
-}
-.centered ul {
-  text-align: center;
-  padding-inline-start: 0; /* To remove default padding on the left side of the list */
-}
-
-.centered li {
-  display: inline-block; /* Display list items in a line */
-  margin: 0 10px; /* Adjust margin as needed */
-}
