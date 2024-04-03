@@ -20,14 +20,13 @@ body {
   margin: auto;
 }
 
-.slides {
-  display: none;
-  width:100%;
+.slideshow-container img { /* Target images within slideshow container */
+  width: 100%; /* Set width to 100% */
+  height: auto; /* Maintain aspect ratio */
 }
 
-img {
-  width: 100%;
-  height: auto;
+.slides {
+  display: none;
 }
 
 .prev,
@@ -117,4 +116,3 @@ footer {
   display: inline-block; /* Display list items in a line */
   margin: 0 10px; /* Adjust margin as needed */
 }
-
