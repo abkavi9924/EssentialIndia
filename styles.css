@@ -13,7 +13,7 @@ img.logo {
 }
 
 header {
-  background-color: linear-gradient(to right, yellow, green);
+  background: linear-gradient(to right, yellow, yellowgreen);
   color: #000000;
   padding: 40px;
   text-align: right; /* Center the navigation menu */
