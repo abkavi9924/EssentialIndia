@@ -11,12 +11,9 @@ img.logo {
   margin-bottom: 200px;
   float: left;
 }
-.gradient {
-  background: linear-gradient(to right, yellow, green);
-}
 
 header {
-  background-color: white;
+  background-color: linear-gradient(to right, yellow, green);
   color: #000000;
   padding: 40px;
   text-align: right; /* Center the navigation menu */
