@@ -14,7 +14,7 @@ img.logo {
 }
 
 header {
-  background: linear-gradient(135deg, yellow, yellowgreen);
+  background: linear-gradient(135deg, rgb(0, 187, 255), yellowgreen);
   color: #000000;
   padding: 40px;
   text-align: right; /* Center the navigation menu */
@@ -37,8 +37,24 @@ nav ul li a {
   text-decoration: none;
 }
 
+nav ul li a:hover {
+  color: blue;
+}
+
+/* Add line below upon clicking */
+nav ul li a.active::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -5px; /* Adjust as needed */
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: blue;
+}
+
 footer {
-  background-color: yellow;
+  background: linear-gradient(85deg,rgb(211, 254, 194), yellow);
   color: black;
   padding: 10px 0;
   text-align: center;
@@ -122,30 +138,11 @@ footer {
   opacity: 1;
 }
 
-.prev,
-.next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  z-index: 1;
-}
 
-.prev {
-  left: 0;
-}
-
-.next {
-  right: 0;
-}
 
 /*Contact styling*/
 .layer4 {
-  background-color: yellow;
+  background:linear-gradient(60deg,rgb(0, 179, 255),lightgreen,white);
   padding: 40px;
   text-align: left; /* Align text to the left */
 }

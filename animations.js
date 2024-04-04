@@ -18,10 +18,3 @@ function showSlides() {
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-document.querySelector('.prev').addEventListener('click', function() {
-  plusSlides(-1);
-});
-
-document.querySelector('.next').addEventListener('click', function() {
-  plusSlides(1);
-});
