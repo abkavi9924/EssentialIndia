@@ -11,6 +11,9 @@ img.logo {
   margin-bottom: 200px;
   float: left;
 }
+.gradient {
+  background: linear-gradient(to right, yellow, green);
+}
 
 header {
   background-color: white;
