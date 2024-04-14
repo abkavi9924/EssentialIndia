@@ -161,7 +161,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(2,0.2fr); /* Adjust the number of columns as needed */
   gap: 40px;
-  margin-left: 500px;
+  margin-left: 518px;
   margin-top: 40px;
 }
 .ceo{
