@@ -13,6 +13,23 @@ img.logo {
   margin-top: -15px;
   float: left;
 }
+p{
+  opacity: 0; /* Initially hide text */
+  transition: opacity 1s;
+}
+h1{
+  opacity: 0; /* Initially hide text */
+  transition: opacity 1s;
+}
+h2{
+  opacity: 0; /* Initially hide text */
+  transition: opacity 1s;
+}
+h3{
+  opacity: 0; /* Initially hide text */
+  transition: opacity 1s;
+}
+
 
 header {
   background: linear-gradient(135deg, rgb(0, 187, 255), yellowgreen);
