@@ -288,17 +288,13 @@
   /* CSS rules for large devices */
 }
 
-
-@media (max-width: 767px){
-
+@media (max-width: 767px) {
   .popup-content {
     max-width: 90%; /* Adjust the maximum width of the popup content */
     padding: 10px; /* Adjust the padding of the popup content */
-
   }
 
   .close-btn {
-
     top: 0; /* Adjust the top position of the close button */
     right: 0; /* Adjust the right position of the close button */
     width: 20px; /* Adjust the width of the close button */
@@ -355,10 +351,16 @@
   .layer4 {
     padding: 20px; /* Adjust the padding of the contact section */
   }
-}  
+}
+  
+}
 
 /* For medium devices like tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   /* CSS rules for medium devices */
 }
 
+/* For large devices like PCs */
+@media (min-width: 992px) {
+  /* CSS rules for large devices */
+}
