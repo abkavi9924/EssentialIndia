@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<head>
   <title>Essential India</title>
   <link rel="stylesheet" href="styles.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
-<body>   
+<body> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   <header>
     <a href="index.html"><img class="logo" src="EssentialIndia-logo.svg" alt="Logo"></a>
     <nav>
@@ -37,16 +39,10 @@
       // Function to close the popup
       function closePopup() {
         document.getElementById('popup').style.display = 'none';
-      }
-    
-      // Function to show the popup after a delay
-      function showPopup() {
-        document.getElementById('popup').style.display = 'flex'; // Show the popup
-      }
-    
+      }    
       // Call the function to show the popup after a delay
       window.onload = function() {
-        setTimeout(showPopup, 5000); // Adjust the delay (in milliseconds) as needed
+        setTimeout(document.getElementById('popup').style.display = 'flex', 5000); // Adjust the delay (in milliseconds) as needed
       };
     </script>
 

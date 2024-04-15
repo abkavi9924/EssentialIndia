@@ -1,4 +1,9 @@
 /* General Styles */
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
 .popup-overlay {
   display: none;
   position: fixed;
