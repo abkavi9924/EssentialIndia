@@ -75,6 +75,19 @@ nav ul li a.active:after {
   transition: width 0.3s ease; /* Add transition effect */
 }
 
+.social-icons {
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icon img {
+  width: 30px; /* Adjust size as needed */
+  height: auto;
+}
 
 footer {
   background: linear-gradient(85deg,rgb(211, 254, 194), yellow);
