@@ -32,7 +32,7 @@ h3{
 
 
 header {
-  background: linear-gradient(135deg, rgb(0, 187, 255), yellowgreen);
+  background: linear-gradient(#000080, beige);
   color: #000000;
   padding: 40px;
   text-align: right; /* Center the navigation menu */
@@ -111,7 +111,7 @@ footer {
 
 /*Homepage styling*/
 .layer1 {
-  background-color: yellow;
+  background:linear-gradient(beige,white) ;
   padding: 40px;
   text-align: center;
 }
