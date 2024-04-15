@@ -288,21 +288,43 @@
   /* CSS rules for large devices */
 }
 
+/* Styles for small devices (e.g., smartphones) */
 @media (max-width: 767px) {
+  .popup-overlay {
+    display: none;
+  }
+
   .popup-content {
-    max-width: 90%; /* Adjust the maximum width of the popup content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    width: 90%; /* Adjust the width of the popup content */
+    max-width: 90%;
     padding: 10px; /* Adjust the padding of the popup content */
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    z-index: 9999;
+    box-shadow: none;
   }
 
   .close-btn {
+    width: 20px; /* Adjust the width of the close button */
+    position: absolute;
     top: 0; /* Adjust the top position of the close button */
     right: 0; /* Adjust the right position of the close button */
-    width: 20px; /* Adjust the width of the close button */
+    cursor: pointer;
+  }
+
+  body {
+    font-family: sans-serif;
   }
 
   img.logo {
     width: 80px; /* Adjust the width of the logo */
-    margin-left: 20px; /* Adjust the left margin of the logo */
+    margin-left: 10px; /* Adjust the left margin of the logo */
+    margin-top: 10px;
+    float: none;
   }
 
   header {
@@ -310,48 +332,134 @@
   }
 
   nav ul li {
-    margin-right: 20px; /* Adjust the right margin of the navigation items */
+    margin-right: 10px; /* Adjust the right margin of the navigation items */
+  }
+
+  .social-icons {
+    margin-bottom: 10px;
   }
 
   .social-icon img {
     width: 20px; /* Adjust the width of social icons */
+    height: auto;
+  }
+
+  footer {
+    padding: 10px 0;
+  }
+
+  .contact {
+    text-align: center;
   }
 
   .layer1 h1,
   .layer1 p {
-    margin-right: 20px; /* Adjust the right margin of headings and paragraphs */
+    text-align: center;
+    margin-right: 10px; /* Adjust the right margin of headings and paragraphs */
   }
 
-  .details {
-    grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns in the grid */
+  .centered h1 {
+    text-align: center;
+    margin-right: 10px; /* Adjust the right margin of headings */
+  }
+
+  .layer4 h2 {
+    margin-left: 0;
+  }
+
+  .centered ul {
+    padding-inline-start: 0; /* To remove default padding on the left side of the list */
+  }
+
+  .centered li {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .brief,
+  h1,
+  h2,
+  h3,
+  p {
+    opacity: 1; /* Initially hide text */
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text {
+    padding: 20px; /* Add padding for spacing */
   }
 
   .slideshow-container {
-    max-width: 400px; /* Adjust the maximum width of the slideshow container */
+    max-width: 300px; /* Adjust the maximum width of the slideshow container */
     margin: auto; /* Center the slideshow container */
   }
 
   .Founders {
-    grid-template-columns: repeat(1, 1fr); /* Display founders in a single column */
-    margin-left: auto; /* Center the founders section */
-    margin-right: auto; /* Center the founders section */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Adjust the number of columns as needed */
+    gap: 10px;
+    margin: 0 auto; /* Center the founders section */
   }
 
   .ceo {
-    width: 150px; /* Adjust the width of founder profiles */
+    width: 120px; /* Adjust the width of founder profiles */
   }
 
   .Moeed,
   .Farhan,
   .post,
   .postf {
-    margin-top: -40px; /* Adjust the top margin of founder profiles */
+    margin-top: -20px; /* Adjust the top margin of founder profiles */
   }
 
   .layer4 {
-    padding: 20px; /* Adjust the padding of the contact section */
+    padding: 10px; /* Adjust the padding of the contact section */
   }
-}  
+
+  /* Additional adjustments */
+  /* Adjust font sizes */
+  body {
+    font-size: 14px;
+  }
+
+  /* Increase spacing between elements */
+  .content,
+  .contact-container p,
+  .contact-container h2 {
+    margin-bottom: 15px;
+  }
+
+  /* Adjustments for navigation */
+  nav ul {
+    display: none;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  /* Styling for hamburger menu */
+  .menu-toggle {
+    display: block;
+  }
+
+  .menu-toggle:after {
+    content: "\2630"; /* Hamburger icon */
+    font-size: 24px;
+  }
+
+  .menu-toggle.active + nav ul {
+    display: block;
+  }
+}
+
 
 /* For medium devices like tablets */
 @media (min-width: 768px) and (max-width: 991px) {
