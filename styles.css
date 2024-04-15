@@ -81,13 +81,15 @@ nav ul li a.active:after {
 
 .social-icon {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 .social-icon img {
   width: 30px; /* Adjust size as needed */
   height: auto;
 }
+
+
 
 footer {
   background: linear-gradient(85deg,rgb(211, 254, 194), yellow);
