@@ -1,5 +1,6 @@
 /* General Styles */
 .popup-overlay {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -20,9 +21,10 @@
   text-align: center;
 }
 .close-btn {
+  width: 15px;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 05px;
+  right:05px;
   cursor: pointer;
 }
 

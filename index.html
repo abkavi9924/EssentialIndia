@@ -28,16 +28,29 @@
     </div>
     <div class="popup-overlay" id="popup">
       <div class="popup-content">
-        <h2>Website Under Development</h2>
-        <p>We are still working on this website. Please excuse any inconvenience.</p>
-        <button class="close-btn" onclick="closePopup()">Close</button>
+        <h2>Website is still Under Development</h2>
+        <p>We are working on this website for better user experience. Please excuse any inconvenience.</p>
+        <img class = "close-btn" src="close-button.png" onclick="closePopup()">
       </div>
     </div>
-    <script>  
-    function closePopup() {
-      document.getElementById('popup').style.display = 'none';
-    }
+    <script>
+      // Function to close the popup
+      function closePopup() {
+        document.getElementById('popup').style.display = 'none';
+      }
+    
+      // Function to show the popup after a delay
+      function showPopup() {
+        document.getElementById('popup').style.display = 'flex'; // Show the popup
+      }
+    
+      // Call the function to show the popup after a delay
+      window.onload = function() {
+        setTimeout(showPopup, 5000); // Adjust the delay (in milliseconds) as needed
+      };
     </script>
+
+
     <div class="content">
       <div class="text">
         <!-- Your text content goes here -->
