@@ -26,7 +26,18 @@
       <h1><b>Welcome to Essential India</b></h1>
       <p>We offer various services to meet your needs.</p>
     </div>
-
+    <div class="popup-overlay" id="popup">
+      <div class="popup-content">
+        <h2>Website Under Development</h2>
+        <p>We are still working on this website. Please excuse any inconvenience.</p>
+        <button class="close-btn" onclick="closePopup()">Close</button>
+      </div>
+    </div>
+    <script>  
+    function closePopup() {
+      document.getElementById('popup').style.display = 'none';
+    }
+    </script>
     <div class="content">
       <div class="text">
         <!-- Your text content goes here -->
@@ -72,7 +83,7 @@
     <div class="social-icons">
       <a href="https://www.instagram.com/essentialindia.in/" class="social-icon"><img src="inta.png" alt="Instagram"></a>
       <a href="https://www.linkedin.com/company/essentialindia" class="social-icon"><img src="linkdn.png" alt="Linkedin"></a>
-      <a href="https://wa.me/9004620603" class="social-icon"><img src="wtsapp.webp" alt="Whatsapp"></a>
+      <a href="https://wa.me/+919004620603" class="social-icon"><img src="wtsapp.webp" alt="Whatsapp"></a>
       <!-- Add more social icons as needed -->
     </div>
     <p>&copy; 2024 Essential India. All rights reserved.</p>
